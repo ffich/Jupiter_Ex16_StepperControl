@@ -2,7 +2,9 @@
     "name": "Ex16_StepperControl",
     "description": "A simple flow for controlling a stepper motor. It uses a Stepper click 4.",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-dashboard": "2.23.0"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flow.json",
